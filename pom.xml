@@ -10,7 +10,7 @@
 
 	<name>flight-amenties</name>
 	<description>dashboard service for aa</description>
-
+     
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
