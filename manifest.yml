@@ -1,7 +1,8 @@
+---
 applications:
 - name: flight-amenties
   instances: 1
-  path: ./target/springboot-demo.war
+  path: ./target/flight-amenties-0.0.1-SNAPSHOT.war
   buildpack: liberty-for-java
   command: mvn spring-boot:run
   memory: 256M
