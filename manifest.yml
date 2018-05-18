@@ -4,6 +4,6 @@ applications:
   path: ./target/springboot-demo.war
   buildpack: liberty-for-java
   command: mvn spring-boot:run
-  memory: 512M
+  memory: 256M
   domain: mybluemix.net
   disk_quota: 256M
