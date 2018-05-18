@@ -4,7 +4,7 @@ applications:
   instances: 1
   path: ./target/flight-amenties-0.0.1-SNAPSHOT.war
   buildpack: liberty-for-java
-  command: mvn spring-boot:run
+  command: mvn clean install spring-boot:run
   memory: 256M
   domain: mybluemix.net
   disk_quota: 256M
